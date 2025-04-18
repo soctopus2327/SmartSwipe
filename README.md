@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# Inkwell App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern research paper discovery app built with React Native and Expo. Discover academic papers through an intuitive swipe interface, save them to your reading list, and manage your research papers efficiently.
 
-## Get started
+## Features
 
-1. Install dependencies
+- 📱 Modern, intuitive swipe interface for paper discovery
+- 📚 Save interesting papers to your reading list
+- 🔄 Swipe gestures:
+  - Right: Save to reading list
+  - Left: Dismiss
+  - Up: Read now
+  - Down: Share paper
+- 🏷️ Paper categorization with tags
+- 📱 Beautiful, responsive UI design
 
-   ```bash
-   npm install
-   ```
+## Getting Started
 
-2. Start the app
+### Prerequisites
 
-   ```bash
-    npx expo start
-   ```
+- Node.js (v14 or later)
+- npm or yarn
+- Expo CLI (`npm install -g expo-cli`)
 
-In the output, you'll find options to open the app in a
+### Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/inkwell-app.git
+cd inkwell-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-## Learn more
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Open the app:
+- iOS: Press 'i' in the terminal or scan the QR code using the iOS Camera app
+- Android: Press 'a' in the terminal or scan the QR code using the Expo Go app
+- Web: Press 'w' in the terminal
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Tech Stack
 
-## Join the community
+- React Native
+- Expo
+- React Navigation
+- Reanimated 2
+- Gesture Handler
+- TypeScript
 
-Join our community of developers creating universal apps.
+## Contributing
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
